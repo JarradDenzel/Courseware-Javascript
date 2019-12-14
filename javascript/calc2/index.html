@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calc</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+<div class="calc">
+	<div id="query"></div>
+	<div id="ans"></div>
+	<div id="calculator">
+		<table>
+			<tr>
+				<td><button class="operator" onclick="button(event)">(</button></td>
+				<td><button class="operator" onclick="button(event)">)</button></td>
+				<td><button class="operator" onclick="button(event)">C</button></td>
+				<td><button>:)</button></td>
+			</tr>
+			<tr>
+				<td><button onclick="button(event)">7</button></td>
+				<td><button onclick="button(event)">8</button></td>
+				<td><button onclick="button(event)">9</button></td>
+				<td><button class="operator" onclick="button(event)">/</button></td>
+			</tr>
+			<tr>
+				<td><button onclick="button(event)">4</button></td>
+				<td><button onclick="button(event)">5</button></td>
+				<td><button onclick="button(event)">6</button></td>
+				<td><button class="operator" onclick="button(event)">x</button></td>
+			</tr>
+			<tr>
+				<td><button onclick="button(event)">1</button></td>
+				<td><button onclick="button(event)">2</button></td>
+				<td><button onclick="button(event)">3</button></td>
+				<td><button class="operator" onclick="button(event)">-</button></td>
+			</tr>
+			<tr>
+				<td><button onclick="button(event)">0</button></td>
+				<td><button onclick="button(event)">.</button></td>
+				<td><button class="operator" onclick="button(event)">=</button></td>
+				<td><button class="operator" onclick="button(event)">+</button></td>
+			</tr>
+		</table>
+	</div>
+
+
+	<script type="text/javascript" src="script/calciscript.js"></script>
+</div>
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+html, body{
+    height: 100%;
+    box-sizing: border-box;
+    background: black;
+}
+
+.game {
+    height: 100%;
+    width: 609px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.box {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.gamerow {
+    height: 200px;
+    box-sizing: border-box;
+}
